@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfólio de Railton Maranhão — QA Engineer júnior: testes E2E com Cypress, testes de API e de permissões, investigação de bugs. Projeto real: sistema da escolinha Meninos da Vila FC.">
+<title>Railton Maranhão — QA Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo">railton<span>.qa</span></a>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="wrap hero" id="top">
+  <div>
+    <div class="tag"><i></i>Disponível para oportunidades</div>
+    <h1>Railton<br>Maranhão<br><em>QA Engineer</em> Jr.</h1>
+    <p class="lead">Testes manuais e automatizados para Web, APIs e Mobile. Criei e testei de ponta a ponta um sistema real em produção, com <strong>22 testes E2E em Cypress</strong> e bugs encontrados antes dos usuários.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projetos">Ver projeto →</a>
+      <a class="btn" href="#contato">Contato</a>
+      <a class="btn" href="https://github.com/RailtonSilva" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+
+  <div class="term" aria-label="Execução de testes ilustrativa">
+    <div class="term-bar"><b></b><b></b><b></b><span>~/railton $ npx cypress run</span></div>
+    <div class="term-body" id="term">
+      <p class="c-m">  Running:  perfil_profissional.cy.js</p>
+      <p> </p>
+      <p>  Railton — QA Engineer</p>
+      <p><span class="c-p">    ✓</span> formado em Análise e Desenv. de Sistemas</p>
+      <p><span class="c-p">    ✓</span> certificado em Eng. de Qualidade (CESAR)</p>
+      <p><span class="c-p">    ✓</span> automatiza testes E2E com Cypress</p>
+      <p><span class="c-p">    ✓</span> testa APIs com Postman</p>
+      <p><span class="c-p">    ✓</span> colocou um sistema real em produção</p>
+      <p><span class="c-p">    ✓</span> encontrou 2 bugs antes dos usuários</p>
+      <p><span class="c-p">    ✓</span> pronto para o primeiro time de QA</p>
+      <p> </p>
+      <p><span class="c-p">  7 passing</span> <span class="c-m">(21y)</span></p>
+      <p><span class="c-i">  0 failing</span>  <span class="c-w">0 pending</span></p>
+    </div>
+  </div>
+</header>
+
+<section id="sobre">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="n">01</span><h2>Sobre mim</h2></div>
+    <div class="about">
+      <div class="reveal">
+        <p>Sou tecnólogo em Análise e Desenvolvimento de Sistemas pela UNIBRA e estou buscando minha primeira oportunidade como <strong>QA Engineer júnior</strong>.</p>
+        <p>Me especializei em qualidade de software pelo programa FAST da CESAR School, onde trabalhei com testes manuais e automatizados em aplicações Web, APIs e Mobile, usando Cypress e Postman.</p>
+        <p>Para colocar isso em prática num problema real, criei o sistema de gestão da escolinha de futebol <strong>Meninos da Vila FC</strong>. Defini os requisitos, escrevi a suíte de testes E2E, investiguei falhas em produção até a causa raiz e cuidei da privacidade dos dados de crianças (LGPD).</p>
+        <p>Minha experiência com atendimento, registro de ocorrências e monitoramento me ensinou a observar com atenção, documentar com precisão e pensar no impacto para quem está do outro lado. É isso que levo para cada caso de teste.</p>
+      </div>
+      <dl class="facts reveal">
+        <div><dt>Local</dt><dd>Abreu e Lima – PE</dd></div>
+        <div><dt>Idade</dt><dd>21 anos</dd></div>
+        <div><dt>Foco</dt><dd>QA manual &amp; automação E2E</dd></div>
+        <div><dt>Formação</dt><dd>Tecnólogo ADS · 2025</dd></div>
+        <div><dt>Idiomas</dt><dd>Português · Inglês básico</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="n">02</span><h2>Projeto em destaque</h2></div>
+
+    <article class="project reveal">
+      <div class="project-media">
+        <div class="browser">
+          <div class="browser-bar"><b></b><b></b><b></b><span>meninos-da-vila · painel</span></div>
+          <img src="img/mdv-painel.jpg" alt="Painel de mensalidades do sistema Meninos da Vila FC" loading="lazy">
+        </div>
+        <img class="phone" src="img/mdv-celular.jpg" alt="Versão do sistema no celular" loading="lazy">
+      </div>
+
+      <div class="project-body">
+        <div class="project-tag">Projeto real · em atividade</div>
+        <h3>Meninos da Vila FC: gestão de alunos e mensalidades</h3>
+        <p class="project-lead">O controle de alunos e mensalidades de uma escolinha de futebol ficava no caderno e no WhatsApp. Criei um sistema web, pensado para o celular, com controle mensal de pagamentos, cobrança pelo WhatsApp, área pública para os pais e acesso por perfil do professor.</p>
+
+        <div class="metrics">
+          <div><strong>22</strong><span>testes E2E</span></div>
+          <div><strong>2</strong><span>bugs encontrados</span></div>
+          <div><strong>5</strong><span>perfis de acesso testados</span></div>
+          <div><strong>4</strong><span>incidentes de produção resolvidos</span></div>
+        </div>
+
+        <h4>Meu papel como QA</h4>
+        <ul class="checks">
+          <li><strong>Suíte Cypress</strong> cobrindo login, cadastro, pagamento e permissões, com asserções de regra de negócio (ex.: +R$ 40,00 no arrecadado)</li>
+          <li><strong>Bugs reportados e corrigidos:</strong> máscara de telefone que embaralhava dígitos e um clique perdido por condição de corrida</li>
+          <li><strong>Causa raiz em produção:</strong> limite de funções da plataforma, URL de configuração e chave de outro projeto</li>
+          <li><strong>Segurança e LGPD:</strong> permissões validadas no servidor e dados de menores protegidos</li>
+        </ul>
+
+        <div class="chips">
+          <span class="chip">Cypress</span><span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">Supabase · PostgreSQL</span><span class="chip">Vercel</span><span class="chip">Sentry</span><span class="chip">Git &amp; GitHub</span>
+        </div>
+
+        <div class="project-cta">
+          <a class="btn primary" data-link href="https://meninos-da-vila-demo.vercel.app/" target="_blank" rel="noopener">Ver demonstração →</a>
+          <a class="btn" data-link href="https://github.com/RailtonSilva/meninos-da-vila" target="_blank" rel="noopener">Código no GitHub</a>
+          <a class="btn" data-link href="https://github.com/RailtonSilva/meninos-da-vila/blob/main/README.md" target="_blank" rel="noopener">Plano de testes</a>
+        </div>
+        <p class="project-note">Desenvolvido com apoio de IA. Meu papel foi definir os requisitos, testar, investigar e reportar os bugs, e decidir as correções.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="habilidades">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="n">03</span><h2>Habilidades</h2></div>
+
+    <div class="stack">
+      <div class="tool reveal"><div class="k">E2E · Web</div><h3>Cypress</h3><p>Suítes E2E com comandos customizados, fixtures e asserções de regra de negócio.</p></div>
+      <div class="tool reveal"><div class="k">API</div><h3>Postman</h3><p>Testes de APIs REST, validação de respostas, status e coleções.</p></div>
+      <div class="tool reveal"><div class="k">Debug · Produção</div><h3>DevTools &amp; Sentry</h3><p>Investigação de falhas pelo console, pela rede, por logs e por monitoramento de erros.</p></div>
+    </div>
+
+    <div class="skills">
+      <div class="skill reveal"><div class="st">● PRINCIPAL</div><h3>Testes manuais</h3><p>Planejamento, casos de teste, critérios de aceite e relato de bugs em Web, APIs e Mobile.</p><div class="chips"><span class="chip">Web</span><span class="chip">API</span><span class="chip">Mobile</span><span class="chip">Bug report</span></div></div>
+      <div class="skill reveal"><div class="st">● PRINCIPAL</div><h3>Testes automatizados E2E</h3><p>Regressão automatizada com dados isolados e testes repetíveis, sem tocar a produção.</p><div class="chips"><span class="chip">Cypress</span><span class="chip">JavaScript</span><span class="chip">Fixtures</span></div></div>
+      <div class="skill reveal"><div class="st">● PRINCIPAL</div><h3>Permissões &amp; segurança</h3><p>Matriz de perfis, validação de acesso no servidor e privacidade de dados (LGPD).</p><div class="chips"><span class="chip">Controle de acesso</span><span class="chip">LGPD</span><span class="chip">Cibersegurança</span></div></div>
+      <div class="skill reveal"><div class="st">● INVESTIGAÇÃO</div><h3>Análise de causa raiz</h3><p>Do sintoma à causa: logs de deploy, requisições de rede, variáveis de ambiente e histórico do Git.</p><div class="chips"><span class="chip">DevTools</span><span class="chip">Logs</span><span class="chip">Sentry</span></div></div>
+      <div class="skill reveal"><div class="st">● DADOS</div><h3>SQL &amp; banco de dados</h3><p>Consultas para validar dados e configuração de banco PostgreSQL; dashboards no Power BI.</p><div class="chips"><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Supabase</span><span class="chip">Power BI</span></div></div>
+      <div class="skill reveal"><div class="st">● ENTREGA</div><h3>Git, deploy &amp; ambientes</h3><p>Versionamento, branches, deploy contínuo e separação entre produção e demonstração.</p><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Vercel</span></div></div>
+      <div class="skill reveal"><div class="st">● BASE</div><h3>JavaScript &amp; Node.js</h3><p>Lógica e JavaScript para escrever testes e entender o código da aplicação e da API.</p><div class="chips"><span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">HTML/CSS</span></div></div>
+      <div class="skill reveal"><div class="st">● PROCESSO</div><h3>Ágil &amp; QA</h3><p>Qualidade integrada ao ciclo de desenvolvimento em times ágeis.</p><div class="chips"><span class="chip">Scrum</span><span class="chip">Kanban</span><span class="chip">Excel avançado</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="experiencia">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="n">04</span><h2>Experiência</h2></div>
+    <div class="tl">
+      <div class="tl-item now reveal">
+        <div class="when">11/2026 — ATUAL · PROJETO INDEPENDENTE</div>
+        <h3>QA &amp; Desenvolvimento — Meninos da Vila FC</h3>
+        <ul>
+          <li>Levantamento de requisitos com o cliente real (escolinha de futebol)</li>
+          <li>Suíte de 22 testes E2E em Cypress e plano de testes documentado</li>
+          <li>Bugs reportados com passos, resultado esperado e causa; investigação de incidentes em produção</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="when">04/09/2025 — 04/10/2026</div>
+        <h3>Fiscal — Gênesis</h3>
+        <ul>
+          <li>Monitoramento de ambiente</li>
+          <li>Registro de ocorrências</li>
+          <li>Suporte administrativo</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="when">02/08/2024 — 02/01/2025 · ESTÁGIO</div>
+        <h3>Estagiário de Telemarketing — Empresa financeira</h3>
+        <ul>
+          <li>Atendimento ao cliente por telefone</li>
+          <li>Registro de informações em sistema</li>
+          <li>Resolução de problemas</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note reveal">O que essas funções têm de QA: atenção a detalhes, registro claro de ocorrências e foco na experiência do usuário.</p>
+  </div>
+</section>
+
+<section id="formacao">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="n">05</span><h2>Formação &amp; cursos</h2></div>
+    <div class="two">
+      <div class="reveal">
+        <h4>Formação acadêmica</h4>
+        <ul class="courses">
+          <li class="hl"><span class="ok">✓</span><div>Tecnólogo em Análise e Desenvolvimento de Sistemas<small>UNIBRA</small></div><span class="y">2025</span></li>
+          <li><span class="ok">✓</span><div>Inglês Básico<small>SENAC</small></div><span class="y">2022</span></li>
+          <li><span class="ok">✓</span><div>Ensino Médio Completo</div><span class="y">2021</span></li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h4>Cursos relevantes</h4>
+        <ul class="courses">
+          <li class="hl"><span class="ok">✓</span><div>Engenharia de Qualidade de Software<small>CESAR School · FAST</small></div><span class="y">2025</span></li>
+          <li><span class="ok">✓</span><div>Cibersegurança<small>Bolsa Santander / DIO</small></div><span class="y">2025</span></li>
+          <li><span class="ok">✓</span><div>Automação de Sistemas<small>IFRS</small></div><span class="y">2024</span></li>
+          <li><span class="ok">✓</span><div>JavaScript<small>IFRS</small></div><span class="y">2024</span></li>
+          <li><span class="ok">✓</span><div>Power BI<small>Santander Open Academy</small></div><span class="y">2024</span></li>
+          <li><span class="ok">✓</span><div>Excel Avançado<small>Prepara Cursos</small></div><span class="y">2024</span></li>
+          <li><span class="ok">✓</span><div>Informática Office<small>Data Sul Cursos</small></div><span class="y">—</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="contact">
+  <div class="wrap">
+    <h2 class="reveal">Vamos construir software mais <em style="font-style:normal;color:var(--pass)">confiável</em> juntos?</h2>
+    <p class="reveal">Aberto a vagas de QA júnior. Fale comigo pelo canal que preferir.</p>
+    <div class="cards">
+      <div class="card reveal"><div class="k">E-mail</div><a class="v" href="mailto:railtonsv22@gmail.com">railtonsv22@gmail.com</a><button data-copy="railtonsv22@gmail.com">copiar</button></div>
+      <div class="card reveal"><div class="k">Telefone / WhatsApp</div><a class="v" href="https://wa.me/5581999844745" target="_blank" rel="noopener">+55 81 99984-4745</a><button data-copy="+5581999844745">copiar</button></div>
+      <div class="card reveal"><div class="k">GitHub</div><a class="v" href="https://github.com/RailtonSilva" target="_blank" rel="noopener">github.com/RailtonSilva</a><button data-copy="https://github.com/RailtonSilva">copiar</button></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap"><span>© 2026 Railton da Silva Maranhão</span><span>all tests passing ✓</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
